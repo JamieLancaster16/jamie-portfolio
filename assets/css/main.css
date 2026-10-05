@@ -117,3 +117,56 @@ input,textarea{width:100%;padding:13px 14px;border:1px solid var(--line);border-
 @media(max-width:1100px){:root{--sidebar:230px}.services-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){:root{--sidebar:0px}.sidebar{transform:translateX(-100%);width:270px;transition:.25s ease}.sidebar.open{transform:translateX(0)}.mobile-toggle{display:block}.main,.footer{margin-left:0}.hero-grid,.about-grid,.resume-grid,.contact-grid,.detail-grid{grid-template-columns:1fr}.profile-art{min-height:430px}}
 @media(max-width:700px){.section{padding:68px 24px}.hero{padding:90px 24px 70px}.portfolio-grid,.skills-grid,.services-grid,.stats-grid,.form-grid{grid-template-columns:1fr}.page-hero{padding:78px 24px 48px}.detail-grid{padding:60px 24px}h1{font-size:clamp(3rem,14vw,4.6rem)}}
+/* Jamie hero profile layout */
+.profile-art.profile-art-clean {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.profile-art.profile-art-clean .profile-blob {
+  width: min(420px, 88%);
+  flex: none;
+}
+
+.profile-notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.profile-note {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fffdf9;
+  border: 1px solid #ded7cf;
+  border-radius: 15px;
+  padding: 11px 16px;
+  color: #4b4250;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(66,56,63,.08);
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .profile-notes {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 340px;
+  }
+
+  .profile-note {
+    width: 100%;
+    white-space: normal;
+  }
+}
