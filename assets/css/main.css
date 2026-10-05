@@ -96,7 +96,31 @@ p{margin:0 0 16px}.muted{color:var(--muted)}
 .profile-card dl{display:grid;grid-template-columns:120px 1fr;gap:8px 14px;margin:22px 0 0}.profile-card dt{font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:900}.profile-card dd{margin:0;font-weight:700}
 .stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}.stat-card{background:var(--cream);border-radius:16px;padding:18px;border:1px solid var(--line)}
 .stat-card:nth-child(2){background:var(--blue-soft)}.stat-card:nth-child(3){background:var(--sage-soft)}.stat-card strong{font-family:Georgia,"Times New Roman",serif;font-size:2rem;display:block;color:var(--deep)}
-.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.skill-card{padding:24px}.skill-card:nth-child(2){background:var(--blue-soft)}.skill-card:nth-child(3){background:var(--sage-soft)}.skill-card:nth-child(4){background:var(--lav-soft)}
+.skills-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+
+.skill-card{
+  padding:24px;
+}
+
+.skill-card:nth-child(1){
+  background:var(--rose-soft);
+}
+
+.skill-card:nth-child(2){
+  background:var(--blue-soft);
+}
+
+.skill-card:nth-child(3){
+  background:var(--sage-soft);
+}
+
+.skill-card:nth-child(4){
+  background:var(--lav-soft);
+}
 .skill-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.skill-list span{padding:7px 10px;background:rgba(255,255,255,.75);border-radius:999px;font-size:.8rem;font-weight:800}
 .timeline{display:grid;gap:18px}.timeline-card{padding:24px;border-left:6px solid var(--blue)}.timeline-card:nth-child(2n){border-left-color:var(--rose)}
 .timeline-card .date{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:900}.timeline-card ul{margin:14px 0 0;padding-left:20px}.timeline-card li{margin-bottom:7px}
