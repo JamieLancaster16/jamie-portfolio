@@ -1,1 +1,0 @@
-Place portfolio images for axcelerate here. Suggested names: 01-overview.jpg, 02-detail.jpg, 03-before-after.jpg. Remove personal/confidential information before publishing.
