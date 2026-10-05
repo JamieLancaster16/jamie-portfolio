@@ -1,0 +1,1 @@
+Place portfolio images for learning here. Suggested names: 01-overview.jpg, 02-detail.jpg, 03-before-after.jpg. Remove personal/confidential information before publishing.
